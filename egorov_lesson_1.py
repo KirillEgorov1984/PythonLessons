@@ -8,3 +8,5 @@ else:
     print('Число нечетное')
 
 print(number % 3)
+
+
