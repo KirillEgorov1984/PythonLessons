@@ -4,7 +4,7 @@ def main():
     num_days = int(input('За какое количество дней ' +
                          'Вы располагаете продажами? '))
 
-    sales_file = open('../sales.txt', 'w')
+    sales_file = open('../Глава_0_АрхивФалов/sales.txt', 'w')
 
     for count in range (1, num_days + 1):
         sales = float (input (

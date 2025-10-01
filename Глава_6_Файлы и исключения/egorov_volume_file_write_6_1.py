@@ -1,6 +1,6 @@
 # запись в файл
 def main_write():
-    outfile = open('../philosophers.txt', 'w', encoding='utf-8')
+    outfile = open('../Глава_0_АрхивФалов/philosophers.txt', 'w', encoding='utf-8')
 
     outfile.write('Джон Локк\n')
     outfile.write('Дэвид Хьюм\n')
@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
 # чтение записей из файла
 def main_read():
-    infile = open('../philosophers.txt', 'r', encoding='utf-8')
+    infile = open('../Глава_0_АрхивФалов/philosophers.txt', 'r', encoding='utf-8')
     infile_read = infile.read()
     infile.close()
     #print(infile_read)
@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
 #построчное чтение файла
 def main_read_rows():
-    infile = open('../philosophers.txt', 'r', encoding='utf-8')
+    infile = open('../Глава_0_АрхивФалов/philosophers.txt', 'r', encoding='utf-8')
     line1 = infile.readline().rstrip('\n')
     line2 = infile.readline().rstrip('\n')
     line3 = infile.readline().rstrip('\n')
